@@ -1,0 +1,73 @@
+header { background-color:#ffffff;
+         font: #777777;
+         border: 2px solid #cccccc;
+         }
+         .box4 {
+          background: teal;
+          color: white;
+          border: 3px solid #353f4f;
+          width: 12%;
+          padding: 0px;
+          box-sizing: border-box;
+          margin: 7px;
+          }
+          .box5 {
+            float: left;
+            position: absolute;
+            right: 223px;
+            top: 14px;
+          }
+          h1{margin-left:120px;}
+#bio-image { float: left;
+            width: 200 px;}
+body {
+    background-color:#dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e2e37;
+    margin: 0px;
+    line-height:1.5;
+  }
+.container .portfolio{
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+ #contact-info, #main-bio,#Portfolio {
+    background-color: white;
+    border: 2px solid #dddddd;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #666666;
+    padding: 15px;
+  }
+ 
+@media screen and (max-width: 980px) {
+  body{ width: 100%;}
+  #bio-image {width: 300px; float: left;}
+  #contact-info, #main-bio,#Portfolio  {margin-left: 100px;}
+  .box4, .box5 { margin-left:50px;float: left;
+    position: absolute;}
+}
+@media screen and (max-width: 768px) {
+  body{ width: 100%;}
+  #bio-image {width: 100px; float: left;}
+  #contact-info, #main-bio,#Portfolio  {margin-left: 50px;}
+  .box4, .box5 { margin-left:30px;float: left;
+    position: absolute;}
+}
+@media screen and (max-width: 640px) {
+  body{ width: 100%;}
+  #bio-image {width: 100px; float: left;}
+  #contact-info, #main-bio,#Portfolio  {margin-left: 20px;}
+  .box4, .box5 { margin-left:10px;float: left;
+    position: absolute;}
+}
